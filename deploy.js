@@ -22,7 +22,7 @@ function installPM2() {
 // transfers local project to the remote server
 function transferProjectToRemote(failed, successful) {
   return ssh.putDirectory(
-    '../riot-starter',
+    'C:/Users/white/Desktop/riot-starter',
     '/home/ubuntu/riot-starter-temp',
     {
       recursive: true,
